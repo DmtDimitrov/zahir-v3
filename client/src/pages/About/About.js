@@ -1,4 +1,6 @@
 import ViewTitle from '../../components/Layout/ViewTitle';
+import './About.css';
+
 
 
 export default function About() {
