@@ -1,4 +1,6 @@
 import ViewTitle from '../../components/Layout/ViewTitle';
+import './Register.css';
+
 
 
 export default function Register() {

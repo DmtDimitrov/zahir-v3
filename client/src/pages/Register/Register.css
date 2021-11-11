@@ -1,0 +1,43 @@
+#register .section-title {
+    padding-bottom: 0;
+  }
+
+  #register .text-success,
+  #register .text-danger {
+    display: none;
+  }
+
+  #register .form-control {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    transition: all ease-in-out 0.4s;
+  }
+
+  #register .form-control:hover,
+  #register .form-control:focus {
+    border-bottom-color: #c9c9c9;
+  }
+
+  #register input {
+    height: 55px;
+  }
+
+  #register button#rf-submit {
+    background: #ce3232;
+    border-radius: 0;
+    border: 0;
+    color: #ffffff;
+    font-weight: bold;
+    height: 50px;
+  }
+
+  #register button#rf-submit:hover {
+    background: #292929;
+    color: #ffffff;
+  }
