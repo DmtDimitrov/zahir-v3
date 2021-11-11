@@ -1,3 +1,5 @@
+import './Home.css';
+
 export default function Home() {
     return (
         <section id="home" className="slider" data-stellar-background-ratio="0.5">
