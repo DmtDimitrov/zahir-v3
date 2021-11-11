@@ -1,0 +1,43 @@
+#login .section-title {
+    padding-bottom: 0;
+  }
+
+  #login .text-success,
+  #login .text-danger {
+    display: none;
+  }
+
+  #login .form-control {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    transition: all ease-in-out 0.4s;
+  }
+
+  #login .form-control:hover,
+  #login .form-control:focus {
+    border-bottom-color: #c9c9c9;
+  }
+
+  #login input {
+    height: 55px;
+  }
+
+  #login button#lf-submit {
+    background: #ce3232;
+    border-radius: 0;
+    border: 0;
+    color: #ffffff;
+    font-weight: bold;
+    height: 50px;
+  }
+
+  #login button#lf-submit:hover {
+    background: #292929;
+    color: #ffffff;
+  }

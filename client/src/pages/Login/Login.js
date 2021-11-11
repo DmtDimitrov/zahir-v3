@@ -1,5 +1,5 @@
 import ViewTitle from '../../components/Layout/ViewTitle';
-
+import './Login.css';
 
 export default function Login() {
     return (
