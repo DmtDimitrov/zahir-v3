@@ -1,4 +1,5 @@
 import ViewTitle from '../../components/Layout/ViewTitle';
+import './Contact.css';
 
 export default function Contact() {
     return (
