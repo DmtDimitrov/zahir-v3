@@ -1,3 +1,5 @@
+import './Footer.css';
+
 export default function Footer() {
     return (
         <footer id="footer" data-stellar-background-ratio="0.5">
