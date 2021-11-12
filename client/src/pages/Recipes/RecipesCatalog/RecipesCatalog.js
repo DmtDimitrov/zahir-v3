@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
-import Recipe from './Recipe';
+import './RecipesCatalog.css';
+import Recipe from './components/Recipe';
 import recipes from '../../../db/recipes';
 
 
