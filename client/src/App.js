@@ -1,16 +1,16 @@
 import Preloader from './components/Layout/Preloader';
 import Navbar from './components/Layout/Navigation/Navbar';
-import Home from './views/Home/Home';
-import About from './views/About/About';
-import ChefsView from './views/Chefs/Chefs';
-import RecipesCatalog from './views/Recipes/RecipesCatalog/RecipesCatalog';
-import Reviews from './views/Reviews/Reviews';
-import Contact from './views/Contact/Contact';
-import Footer from './views/Home/Footer';
-import Login from './views/Login/Login';
-import Register from './views/Register/Register';
-import CreateRecipe from './views/Recipes/CreateRecipe/CreateRecipe';
-import Details from './views/Recipes/RecipeDetails/Details';
+import Home from './pages/Home';
+import About from './pages/About';
+import ChefsView from './pages/Chefs/Chefs';
+import RecipesCatalog from './pages/Recipes/RecipesCatalog/RecipesCatalog';
+import Reviews from './pages/Reviews/Reviews';
+import Contact from './pages/Contact';
+import Footer from './components/Footer';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import CreateRecipe from './pages/Recipes/CreateRecipe/CreateRecipe';
+import Details from './pages/Recipes/RecipeDetails/RecipeDetails';
 
 function App() {
     return (
