@@ -330,77 +330,6 @@ http://www.templatemo.com/tm-515-eatery
       HOME              
   -----------------------------------------*/
 
-  #home {
-    padding: 0;
-  }
-
-  #home h1 {
-    color: #ffffff;
-    padding-bottom: 30px;
-  }
-
-  #home h3 {
-    color: #f9f9f9;
-    font-size: 14px;
-    line-height: inherit;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0;
-  }
-
-  @media (min-width: 768px) {
-    .slider .col-md-8 {
-      padding-left: 0;
-    }
-  }
-
-  .slider .owl-dots {
-    position: absolute;
-    top: 50%;
-    right: 2em;
-    justify-content: center;
-  }
-
-  .owl-theme .owl-dots .owl-dot {
-    display: block;
-  }
-
-  .owl-theme .owl-dots .owl-dot span {
-    width: 12px;
-    height: 12px;
-    margin: 7px 10px;
-    border: 2px solid #d9d9d9;
-    background: transparent;
-    display: block;
-    -webkit-backface-visibility: visible;
-    transition: opacity 200ms ease;
-    border-radius: 30px;
-  }
-
-  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background-color: #ffffff;
-    border-color: transparent;
-  }
-
-  .slider .caption {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-    background-color: rgba(20,20,20,0.2);
-    height: 100%;
-    color: #fff;
-    cursor: e-resize;
-    padding: 4em 0 0 2em;
-  }
-
-  .slider .item {
-    background-position: inherit;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
-    height: 650px;
-  }
 
   .slider .item-first {
     background-image: url(../images/slider-image1.jpg);
@@ -414,47 +343,11 @@ http://www.templatemo.com/tm-515-eatery
     background-image: url(../images/slider-image3.jpg);
   }
 
-  .slider .item-second .section-btn {
-    background: #292929;
-  }
-
-  .slider .item-second .section-btn:hover {
-    background: #ffffff;
-  }
-
-  .slider .item-third .section-btn {
-    background: transparent;
-    border: 1px solid #ffffff;
-  }
-
-  .slider .item-third .section-btn:hover,
-  .slider .item-third .section-btn:focus {
-    background: #ce3232;
-    border-color: transparent;
-    color: #ffffff;
-  }
-
-
 
   /*---------------------------------------
       ABOUT              
   -----------------------------------------*/
 
-  #about {
-    padding-bottom: 0;
-  }
-
-  .about-info {
-    padding: 0 6em 5em 0;
-  }
-
-  .about-info .section-title {
-    padding-bottom: 20px;
-  }
-
-  .about-image {
-    position: absolute;
-  }
 
 
   
@@ -462,54 +355,7 @@ http://www.templatemo.com/tm-515-eatery
       DETAILS              
   -----------------------------------------*/
 
-  #details {
-    padding-bottom: 0;
-  }
 
-  .details-info {
-    padding: 0 6em 5em 0;
-  }
-
-  .details-info .section-title {
-    padding-bottom: 20px;
-  }
-
-  .details-image {
-    position: absolute;
-  }
-
-  .details-btn .section-btn:hover{
-    background: #292929;
-    color: #ffffff;
-    /* margin: 1.2em 0 0 1em; */
- 
-  }
-
-  .details-btn .section-btn{
-    border: none;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 150px
-
-  }
-
-  #details .form-control {
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid #dddddd;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    transition: all ease-in-out 0.4s;
-  }
 
 
 
@@ -600,122 +446,7 @@ http://www.templatemo.com/tm-515-eatery
      CATALOG              
   -----------------------------------------*/
 
-  #recipes {
-    padding-bottom: 0;
-  }
 
-  #recipes .container {
-    width: 100%;
-  }
-
-  #recipes .col-md-4 {
-    margin: 0;
-    padding: 0;
-  }
-
-  .recipes-thumb img {
-    width: 100%;
-    transition: 0.5s;
-  }
-
-  .recipes-thumb:hover img {
-    transform: scale(1.15);
-  }
-
-  #recipes .recipes-thumb {
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    width: 102%;
-  }
-
-  .recipes-thumb .recipes-info {
-    position: absolute;
-    top: 60%;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    text-align: left;
-    padding: 25px 30px;
-    transition: 0.5s 0.2s;
-  }
-
-  .recipes-info .recipes-item {
-    float: left;
-  }
-
-  .recipes-info .recipes-price {
-    float: right;
-  }
-
-  .recipes-info .recipes-price span {
-    font-size: 20px;
-    font-weight: bold;
-    line-height: normal;
-    display: block;
-    margin-top: 10px;
-  }
-
-  .recipes-thumb .recipes-info h3,
-  .recipes-thumb .recipes-info p,
-  .recipes-thumb .recipes-info span {
-    transform: translateY(100%);
-    opacity: 0;
-    display: block;
-    transition: 0.5s 0.2s;
-    color: #ffffff;
-    z-index: 2;
-    position: relative;
-  }
-
-  .recipes-thumb .recipes-info h3 {
-    margin-top: 0;
-  }
-
-  .recipes-thumb .recipes-info p {
-    color: #d9d9d9;
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-
-  .recipes-thumb:hover .recipes-info h3,
-  .recipes-thumb:hover .recipes-info p,
-  .recipes-thumb:hover .recipes-info span {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-
-  .recipes-thumb:hover .recipes-info {
-    background: rgba(0,0,0,0.8);
-  }
-
-  #recipes .form-control {
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid #dddddd;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    transition: all ease-in-out 0.4s;
-  }
-
-  #recipes button#rf-submit {
-    background: #ce3232;
-    border-radius: 0;
-    border: 0;
-    color: #ffffff;
-    font-weight: bold;
-    height: 50px;
-  }
-
-  #recipes button#rf-submit:hover {
-    background: #292929;
-    color: #ffffff;
-  }
 
 
   /*---------------------------------------
@@ -727,149 +458,20 @@ http://www.templatemo.com/tm-515-eatery
     background-size: cover;
   }
 
-  #testimonial .owl-dots {
-    position: relative;
-    top: 0;
-    right: 0;
-    justify-content: center;
-  }
-
-  #testimonial .owl-theme .owl-dots .owl-dot,
-  #testimonial .owl-theme .owl-dots .owl-dot span {
-    display: inline-block;
-  }
-
-  #testimonial .owl-theme .owl-dots .owl-dot span {
-    margin: 20px 5px;
-  }
-
-  #testimonial h2 {
-    color: #ffffff;
-  }
-
-  #testimonial p,
-  .tst-author h4,
-  .tst-author span {
-    display: inline;
-  }
-
-  #testimonial p {
-    color: #d9d9d9;
-    font-size: 20px;
-    line-height: 35px;
-  }
-
-  .tst-author {
-    margin-top: 20px;
-  }
-
-  .tst-author h4,
-  .tst-author span {
-    color: #b2b2b2;
-  }
-
-  .tst-author span {
-    margin-left: 5px;
-  }
-
 
 
   /*---------------------------------------
       CONTACT             
   -----------------------------------------*/
 
-  #contact .section-title {
-    padding-bottom: 0;
-  }
-
-  #contact .text-success,
-  #contact .text-danger {
-    display: none;
-  }
-
-  #contact .form-control {
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid #dddddd;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    transition: all ease-in-out 0.4s;
-  }
-
-  #contact .form-control:hover,
-  #contact .form-control:focus {
-    border-bottom-color: #c9c9c9;
-  }
-
-  #contact input {
-    height: 55px;
-  }
-
-  #contact button#cf-submit {
-    background: #ce3232;
-    border-radius: 0;
-    border: 0;
-    color: #ffffff;
-    font-weight: bold;
-    height: 50px;
-  }
-
-  #contact button#cf-submit:hover {
-    background: #292929;
-    color: #ffffff;
-  }
+ 
 
 
   /*---------------------------------------
       LOGIN          
   -----------------------------------------*/
 
-  #login .section-title {
-    padding-bottom: 0;
-  }
 
-  #login .text-success,
-  #login .text-danger {
-    display: none;
-  }
-
-  #login .form-control {
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid #dddddd;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    transition: all ease-in-out 0.4s;
-  }
-
-  #login .form-control:hover,
-  #login .form-control:focus {
-    border-bottom-color: #c9c9c9;
-  }
-
-  #login input {
-    height: 55px;
-  }
-
-  #login button#lf-submit {
-    background: #ce3232;
-    border-radius: 0;
-    border: 0;
-    color: #ffffff;
-    font-weight: bold;
-    height: 50px;
-  }
-
-  #login button#lf-submit:hover {
-    background: #292929;
-    color: #ffffff;
-  }
 
 
 
@@ -877,97 +479,13 @@ http://www.templatemo.com/tm-515-eatery
       REGISTER          
   -----------------------------------------*/
 
-  #register .section-title {
-    padding-bottom: 0;
-  }
 
-  #register .text-success,
-  #register .text-danger {
-    display: none;
-  }
-
-  #register .form-control {
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid #dddddd;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    transition: all ease-in-out 0.4s;
-  }
-
-  #register .form-control:hover,
-  #register .form-control:focus {
-    border-bottom-color: #c9c9c9;
-  }
-
-  #register input {
-    height: 55px;
-  }
-
-  #register button#rf-submit {
-    background: #ce3232;
-    border-radius: 0;
-    border: 0;
-    color: #ffffff;
-    font-weight: bold;
-    height: 50px;
-  }
-
-  #register button#rf-submit:hover {
-    background: #292929;
-    color: #ffffff;
-  }
 
   /*---------------------------------------
       CREATE RECIPE          
   -----------------------------------------*/
 
-  #create-recipe .section-title {
-    padding-bottom: 0;
-  }
-
-  #create-recipe .text-success,
-  #create-recipe .text-danger {
-    display: none;
-  }
-
-  #create-recipe .form-control {
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid #dddddd;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    transition: all ease-in-out 0.4s;
-  }
-
-  #create-recipe .form-control:hover,
-  #create-recipe .form-control:focus {
-    border-bottom-color: #c9c9c9;
-  }
-
-  #create-recipe input {
-    height: 55px;
-  }
-
-  #create-recipe button#crf-submit {
-    background: #ce3232;
-    border-radius: 0;
-    border: 0;
-    color: #ffffff;
-    font-weight: bold;
-    height: 50px;
-  }
-
-  #create-recipe button#crf-submit:hover {
-    background: #292929;
-    color: #ffffff;
-  }
+ 
 
   /*---------------------------------------
      FOOTER              
