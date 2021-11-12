@@ -1,0 +1,48 @@
+#details {
+    padding-bottom: 0;
+  }
+
+  .details-info {
+    padding: 0 6em 5em 0;
+  }
+
+  .details-info .section-title {
+    padding-bottom: 20px;
+  }
+
+  .details-image {
+    position: absolute;
+  }
+
+  .details-btn .section-btn:hover{
+    background: #292929;
+    color: #ffffff;
+    /* margin: 1.2em 0 0 1em; */
+ 
+  }
+
+  .details-btn .section-btn{
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px
+
+  }
+
+  #details .form-control {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    transition: all ease-in-out 0.4s;
+  }

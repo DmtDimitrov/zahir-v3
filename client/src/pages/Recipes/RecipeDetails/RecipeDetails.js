@@ -1,3 +1,5 @@
+import './RecipeDetails.css';
+
 export default function Details({
     chef,
     title,
