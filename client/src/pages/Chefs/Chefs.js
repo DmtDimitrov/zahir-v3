@@ -1,3 +1,4 @@
+import './Chefs.css';
 import Chef from './components/Chef';
 import ViewTitle from '../../components/Layout/ViewTitle';
 
