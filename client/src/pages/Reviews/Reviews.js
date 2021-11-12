@@ -1,4 +1,5 @@
 import ViewTitle from '../../components/Layout/ViewTitle';
+import './Reviews.css';
 
 export default function Reviews() {
     return (
