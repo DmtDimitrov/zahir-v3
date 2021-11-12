@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import uniqid from 'uniqid'
 
-
+import './CreateRecipe.css';
 import ViewTitle from '../../../components/Layout/ViewTitle';
-import GroupHeading from './GroupHeading';
+import GroupHeading from './components/GroupHeading';
 import TextInput from '../../../components/Forms/TextField/TextInput';
 import Button from '../../../components/Buttons/Button';
 
